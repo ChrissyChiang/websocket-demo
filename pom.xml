@@ -11,10 +11,16 @@
     <groupId>com.chrissy</groupId>
     <artifactId>websocket-stomp</artifactId>
     <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <name>websocket-stomp</name>
     <description>websocket-stomp</description>
+    <modules>
+        <module>module/app</module>
+    </modules>
     <properties>
-        <java.version>17</java.version>
+        <java.version>21</java.version>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
     </properties>
     <dependencies>
         <!-- springframework -->

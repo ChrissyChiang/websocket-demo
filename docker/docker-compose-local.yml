@@ -1,0 +1,24 @@
+version: '3.5'
+services:
+  websocket-postgres-local:
+    # 若使用 Intel-based OS 改用此 image:
+    image: postgres:15.4
+    # image: arm64v8/postgres:15.4
+    # 若使用 WSL on Windows 改用此 user 設定:
+    # user: ${POSTGRES_UID}:${POSTGRES_GID}
+    user: postgres
+    container_name: websocket-postgres-local
+    networks:
+      - websocket-local
+    ports:
+      - ${POSTGRES_PORT}:5432
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    env_file:
+      - .env
+volumes:
+  pgdata:
+    driver: local
+networks:
+  websocket-local:
+    driver: bridge
