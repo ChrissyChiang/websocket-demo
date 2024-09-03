@@ -1,4 +1,4 @@
-package com.jgallop.websocketstomp.model;
+package com.chrissy.websocketstomp.model;
 
 import lombok.Data;
 

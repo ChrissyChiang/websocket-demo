@@ -1,4 +1,4 @@
-package com.jgallop.websocketstomp;
+package com.chrissy.websocketstomp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

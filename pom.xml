@@ -8,7 +8,7 @@
         <version>3.2.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.jgallop</groupId>
+    <groupId>com.chrissy</groupId>
     <artifactId>websocket-stomp</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <name>websocket-stomp</name>
