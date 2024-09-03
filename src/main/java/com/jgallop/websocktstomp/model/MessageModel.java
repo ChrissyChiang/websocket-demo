@@ -1,6 +1,6 @@
 package com.jgallop.websocktstomp.model;
 
-public class MyMessage {
+public class MessageModel {
     private String name;
     private String message;
 

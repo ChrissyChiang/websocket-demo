@@ -7,7 +7,7 @@ import org.springframework.web.socket.config.annotation.StompEndpointRegistry;
 import org.springframework.web.socket.config.annotation.WebSocketMessageBrokerConfigurer;
 
 /**
- * 註冊Websocket連線/socket以及監聽路徑/topic 與發佈路徑/app
+ * 註冊 Websocket 連線 /socket 以及監聽路徑 /topic 與發佈路徑 /app
  */
 @Configuration
 @EnableWebSocketMessageBroker
@@ -15,7 +15,8 @@ public class WebsocketConfig implements WebSocketMessageBrokerConfigurer {
 
     @Override
     public void registerStompEndpoints(StompEndpointRegistry registry) {
-        registry.addEndpoint("/socket").setAllowedOrigins("*");
+        registry.addEndpoint("/socket")
+                .setAllowedOrigins("*");
     }
 
     @Override

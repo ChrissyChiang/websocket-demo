@@ -61,4 +61,3 @@ $(function () {
     $( "#disconnect" ).click(() => disconnect());
     $( "#send" ).click(() => sendName());
 });
-

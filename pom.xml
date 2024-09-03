@@ -9,7 +9,7 @@
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
   <groupId>com.jgallop</groupId>
-  <artifactId>websockt-stomp</artifactId>
+  <artifactId>websocket-stomp</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>websockt-stomp</name>
   <description>websockt-stomp</description>
