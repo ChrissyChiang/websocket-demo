@@ -38,4 +38,7 @@
     </plugins>
   </build>
 
+    <version>1.0.0-SNAPSHOT</version>
+    <name>websocket-stomp</name>
+    <description>websocket-stomp</description>
 </project>

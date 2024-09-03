@@ -1,6 +1,6 @@
-package com.jgallop.websocktstomp.controller;
+package com.jgallop.websocketstomp.controller;
 
-import com.jgallop.websocktstomp.model.MessageModel;
+import com.jgallop.websocketstomp.model.MessageModel;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.SendTo;
 import org.springframework.stereotype.Controller;

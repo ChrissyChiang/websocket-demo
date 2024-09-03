@@ -1,4 +1,4 @@
-package com.jgallop.websocktstomp;
+package com.jgallop.websocketstomp;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.simp.config.MessageBrokerRegistry;
